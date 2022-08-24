@@ -33,9 +33,13 @@ Data Rate: 4G will range from 20 to 100 Mbps.
 - It is used as radio resources management and radio bearer control
 
 ### Process
-Connection: Arrows i.e ->, <-, <->||=
--  UE -> eNB • eNB Provides Radio Interface to UE
+> Connection: Arrows i.e ->, <-, <->||=.. Bolded are User Plane, rest are control plane/both
+-  **UE -> eNB** • eNB Provides Radio Interface to UE
 - eNB -> MME • MME Does Auth & Tracks Location
+- - MME -> HSS • HSS Gives Sub info of /allUsers
+- - **MME -> SGW** • SGW is instructed to form Tunnel w/ User
+- SGW = UE • SGW facilitates data transfer and eNB transfer
+- **SGW -> PGW = PDN** • PDN is external network
 
 ## Built On/Supports
 - IPv6
@@ -58,7 +62,9 @@ Connection: Arrows i.e ->, <-, <->||=
 It provides better spectral efficiency.
 It has high speed, high capacity and low cost per bit
 
+# 5G Network Arch
 
+![Connection Sturcture](/assets/w1/002.png)
 
 # Use Cases
 Maintiainance Robots - @illwerke vkw in Austria by Energy Robotics GmBH - https://youtu.be/PkW9wx7Kbws - Can also be extended to AR as is being planned Sports industry for games
