@@ -14,6 +14,7 @@ Data Rate: 4G will range from 20 to 100 Mbps.
 ![Connection Sturcture](/assets/w1/001.png)
 
 ### Legend
+
 **MME** - Mobility Management Entity
 - It is used for Paging ,Authentication, Handover and Selection of Serving Gateway
 
@@ -65,6 +66,10 @@ It has high speed, high capacity and low cost per bit
 # 5G Network Arch
 
 ![Connection Sturcture](/assets/w1/002.png)
+
+**UPF**: User Plane Function
+
+
 
 # Use Cases
 Maintiainance Robots - @illwerke vkw in Austria by Energy Robotics GmBH - https://youtu.be/PkW9wx7Kbws - Can also be extended to AR as is being planned Sports industry for games
