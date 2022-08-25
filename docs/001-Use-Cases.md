@@ -11,7 +11,7 @@ Data Rate: 4G will range from 20 to 100 Mbps.
 
 <img src="https://i.imgur.com/vwwByXH.jpg" alt="Generic Mobile Comm Arch"/>
 
-![Connection Sturcture](assets/w1/001.png)
+![Connection Sturcture](../assets/w1/001.png)
 
 ### Legend
 
@@ -69,7 +69,7 @@ It has high speed, high capacity and low cost per bit
 - URLLC (Ultra Reliable Low Latency Communications)
 - mMTC (massive Machine Type Communications)
 
-![Connection Sturcture](assets/w1/002.png) \
+![Connection Sturcture](../assets/w1/002.png) \
 *PDU Sessions are Unique to Devices, Eash PDU may have multiple QoS Flow Sessions*
 
 **UPF**: User Plane Function
