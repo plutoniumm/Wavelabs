@@ -11,7 +11,7 @@ Data Rate: 4G will range from 20 to 100 Mbps.
 
 <img src="https://i.imgur.com/vwwByXH.jpg" alt="Generic Mobile Comm Arch"/>
 
-![Connection Sturcture](/assets/w1/001.png)
+![Connection Sturcture](assets/w1/001.png)
 
 ### Legend
 
@@ -65,7 +65,12 @@ It has high speed, high capacity and low cost per bit
 
 # 5G Network Arch
 
-![Connection Sturcture](/assets/w1/002.png)
+- eMBB (enhanced Mobile Broadband)
+- URLLC (Ultra Reliable Low Latency Communications)
+- mMTC (massive Machine Type Communications)
+
+![Connection Sturcture](assets/w1/002.png) \
+*PDU Sessions are Unique to Devices, Eash PDU may have multiple QoS Flow Sessions*
 
 **UPF**: User Plane Function
 
@@ -73,8 +78,8 @@ It has high speed, high capacity and low cost per bit
 
 # Use Cases
 Maintiainance Robots - @illwerke vkw in Austria by Energy Robotics GmBH - https://youtu.be/PkW9wx7Kbws - Can also be extended to AR as is being planned Sports industry for games
- Robots can go into toxic and radioactive environments (include Fukushima)
- Robots can use digital twin model to click and inspect and report back
+Robots can go into toxic and radioactive environments (include Fukushima)
+Robots can use digital twin model to click and inspect and report back
 
 Oil Rigs - IoT Sensors, realtime data
 Sensors on say turbines which can detect vibrations which if outside normal range can be checked
