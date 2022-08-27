@@ -1,9 +1,3 @@
-# Intro
-Last Updated 14:15:00, 25-05-2022 \
-The Following is My notes on 4G & 5G Networks based on [This Discussion](../minutes/001.md). The notes are a bit chaotic right now due to raw dumping of information and will get sorted out within a day or two.
-
-# 4G Network Arch
-
 <style>
     img{
         max-height: 300px;
@@ -11,31 +5,41 @@ The Following is My notes on 4G & 5G Networks based on [This Discussion](../minu
     }
 </style>
 
+# Intro
+Last Updated 14:15:00, 25-05-2022 \
+The Following is My notes on 4G & 5G Networks based on [This Discussion](../minutes/001.md). The notes are a bit chaotic right now due to raw dumping of information and will get sorted out within a day or two.
+
+# Terms
+
+## 4G
+- **MME**: _Mobility Management Entity_: It is used for Paging ,Authentication, Handover and Selection of Serving Gateway
+
+- **SGW**: _Serving gateway_: It is used to Routing and Forwarding user data packet.
+- **PDN-GW**: _Packet Data Network Gateway_: It is used for user equipment (UE) IP allocation
+- **HSS**: _Home Subscriber Server_: It is a user Database used for service subscriber, user identification and addressing
+- **PCRF**: _Policy and Charging Rule Function_: It provide quality of service and charging
+- **eNode B**: _evolved Node B_: It is used as radio resources management and radio bearer control
+
+## 5G
+- **eMBB**: _enhanced Mobile Broadband_
+- **URLLC**: _Ultra Reliable Low Latency Communications_
+- **mMTC**: _massive Machine Type Communications_
+
+> Note PDU Sesh may not always be IP based it can be unstructured or Ethernet also
+- **AMF**: _Access Mobility Func_: Similar to 4G MME. Temp ID also provided
+- **SMF**: _Session Mgmt Func_: Done also by 4G MME. Routinely talks to PCF for Auth. Establishment of PDU Sesh. Chooses appropriate UPF while doing so, like say if conn is IP based, allocates an IP Address.
+- **PCF**: _Policy Control Func_: Is Dynamic. Before for instance a PDU sesh is opened the SMF will check in with PCF before hand for say ex region specific funcs.
+- **UPF**: _User Plane Func_: Anchor for gNBs, same across all changes. Implements Policy and enforces Quality of Service.
+- **UDM** - _Unified Data Mgmt_: Similar to 4G HSS. Holds subscriber info i.e ZTA DB Funcs.
+> Note all these processes are Virtualized Network Funcs which can run on Off-The-Shelf Arch therefore saving cost and making system more capable of scaling up and down.
+>
+> Such system also allows for Network Slicing by design as it can create logical networks on same physical infra.
+
+# 4G Network Arch
+
 Data Rate: 4G will range from 20 to 100 Mbps.
 
-<img src="https://i.imgur.com/vwwByXH.jpg" alt="Generic Mobile Comm Arch"/>
-
 ![Connection Sturcture](../assets/w1/001.png)
-
-### Legend
-
-**MME** - Mobility Management Entity
-- It is used for Paging ,Authentication, Handover and Selection of Serving Gateway
-
-**SGW** - Serving gateway
-- It is used to Routing and Forwarding user data packet. \
-
-**PDN-GW** - Packet Data Network Gateway
-- It is used for user equipment (UE) IP allocation \
-
-**HSS** - Home Subscriber Server
-- It is a user Database used for service subscriber, user identification and addressing \
-
-**PCRF** - Policy and Charging Rule Function
-- It provide quality of service and charging \
-
-**eNode B** - evolved Node B
-- It is used as radio resources management and radio bearer control
 
 ### Process
 > Connection: Arrows i.e ->, <-, <->||=.. Bolded are User Plane, rest are control plane/both
@@ -62,57 +66,46 @@ Data Rate: 4G will range from 20 to 100 Mbps.
 > - IPv6 is more compatible to mobile networks than IPv4
 > - IPv6 allows for bigger payloads than what is allowed in IPv4
 
-
 ## Advantages:
 It provides better spectral efficiency.
 It has high speed, high capacity and low cost per bit
 
 # 5G Network Arch
 
-- eMBB (enhanced Mobile Broadband)
-- URLLC (Ultra Reliable Low Latency Communications)
-- mMTC (massive Machine Type Communications)
-
 ![Connection Sturcture](../assets/w1/002.png) \
 *PDU Sessions are Unique to Devices, Eash PDU may have multiple QoS Flow Sessions*
 
-**UPF**: User Plane Function
-
-
-
 # Use Cases
-Maintiainance Robots - @illwerke vkw in Austria by Energy Robotics GmBH - https://youtu.be/PkW9wx7Kbws - Can also be extended to AR as is being planned Sports industry for games
-Robots can go into toxic and radioactive environments (include Fukushima)
-Robots can use digital twin model to click and inspect and report back
+
+Default Citation: https://youtu.be/_n9dNf-l36s
+
+## Sensor Suites
+We can employ a suite of sensor in any given factory which can warn maintainer of any potential errors before they happen. Say a turbine may have a vibration sensor which will warn before it goes out of permitted range.
+
+## Maintenance Bots
+- When power demand increases or decreases, 5G will enable CV2X to enable vehicle suites to automatically be deployed with say extra coal.
+- When There are large collapses in plants where inspection is needed we can use 5G bots which then go to site and inspect it in place of humans like say in Fukishima which was both a radioactive and toxic env. \
+    https://www.youtube.com/watch?v=f7qsfky4TmE
+- Digital Twins can be used to navigate robots in confined spaces for maintenance which can then be performed without human intervention and even service stoppage. 5G enables for cm level tollerance levels as opposed to 4G in m. \
+    NASA ISS uses Canada Arm
+- There can be patrol bots in remote locations on mountains to inspect periodically to reduce manpower in hazardous areas \
+    https://youtu.be/PkW9wx7Kbws @Austria in Illwerke Vkw plant by Energy Robotics
+- We can use any such moving bots with Mix Reality Headsets to see env in realtime provided by ms latency due to 5G.
+
 
 Oil Rigs - IoT Sensors, realtime data
-Sensors on say turbines which can detect vibrations which if outside normal range can be checked
 Grid Monitoring
-
-Fleet Management & Automatic Vehicles (CV2X) - Coal plant wagon Tipler can start getting in more coal from each wagon when more power demand is there
-
-4G GPS least count is m, 5G is in cm
 
 Drones
 
 # Raw
-- Max Throughput - 20GBps & 1ms Latency
-- 1M Terminals/sq km.
 
 ##
 - Control Services
 - - Opti Energy Distri, to avoid fails
-- Collection
-- - Collection & Provision across system
 - Mobile App
-- - Reduces Manual Inspection
 - - Hotline Operation
-
-Cats
-- Safety
 - Customer Service
-- Ops & Govnance
-- Quality
 
 **Network Slicing**
 
