@@ -88,27 +88,19 @@ We can employ a suite of sensor in any given factory which can warn maintainer o
     https://www.youtube.com/watch?v=f7qsfky4TmE
 - Digital Twins can be used to navigate robots in confined spaces for maintenance which can then be performed without human intervention and even service stoppage. 5G enables for cm level tollerance levels as opposed to 4G in m. \
     NASA ISS uses Canada Arm
-- There can be patrol bots in remote locations on mountains to inspect periodically to reduce manpower in hazardous areas \
+- There can be patrol bots in remote locations on mountains to inspect periodical ly to reduce manpower in hazardous areas \
     https://youtu.be/PkW9wx7Kbws @Austria in Illwerke Vkw plant by Energy Robotics
 - We can use any such moving bots with Mix Reality Headsets to see env in realtime provided by ms latency due to 5G.
 
 
-Oil Rigs - IoT Sensors, realtime data
-Grid Monitoring
 
-Drones
-
-# Raw
-
-##
-- Control Services
-- - Opti Energy Distri, to avoid fails
+## Other
+- Grid Monitoring
+- Oil Rigs - IoT Sensors, realtime data
+- Drones
 - Mobile App
-- - Hotline Operation
 - Customer Service
-
-**Network Slicing**
-
+- - Hotline Operation
 
 # Store
 - https://docs.magmacore.org/docs/basics/quick_start_guide
