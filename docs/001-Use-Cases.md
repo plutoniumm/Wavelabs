@@ -6,7 +6,7 @@
 </style>
 
 # Intro
-Last Updated 14:15:00, 25-05-2022 \
+Last Updated 16:15, 27-05-2022 \
 The Following is My notes on 4G & 5G Networks based on [This Discussion](../minutes/001.md). The notes are a bit chaotic right now due to raw dumping of information and will get sorted out within a day or two.
 
 # Terms
@@ -92,15 +92,11 @@ We can employ a suite of sensor in any given factory which can warn maintainer o
     https://youtu.be/PkW9wx7Kbws @Austria in Illwerke Vkw plant by Energy Robotics
 - We can use any such moving bots with Mix Reality Headsets to see env in realtime provided by ms latency due to 5G.
 
+## Specific Advantages
+- Oil Rigs can be converted to fully unmanned stations by automated monitoring and and using transport pipes/ships for support all powered by 5G network. This would Essentially save almost 1000 people per year and increase efficiency beyond human abilities due to realtime analytics data.
+- Similar strategies can be used for Grid monitoring.
 
-
-## Other
-- Grid Monitoring
-- Oil Rigs - IoT Sensors, realtime data
-- Drones
+## Potential Areas where I have no new ideas
 - Mobile App
 - Customer Service
 - - Hotline Operation
-
-# Store
-- https://docs.magmacore.org/docs/basics/quick_start_guide
