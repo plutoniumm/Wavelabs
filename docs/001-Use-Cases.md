@@ -100,3 +100,6 @@ We can employ a suite of sensor in any given factory which can warn maintainer o
 - Mobile App
 - Customer Service
 - - Hotline Operation
+
+# Magma
+![LN Blueprint](https://lfnetworking.org/wp-content/uploads/sites/7/2022/04/LFN_5GB_Slide-1.svg)

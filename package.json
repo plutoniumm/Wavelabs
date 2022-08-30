@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "git": "sh ./scripts/git.sh"
+    "git": "sh ./scripts/git.sh",
+    "dev": "bun ./server.ts"
   }
 }
