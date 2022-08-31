@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: #f5f5f7;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        a,
+        a:visited,
+        a:hover {
+            color: #2af;
+            text-decoration: none;
+        }
+
+        .cont {
+            max-width: calc(100vw - 40px);
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            max-height: calc(100vh - 50px);
+        }
+
+        #toc {
+            border-radius: 10px;
+            padding: 10px;
+            min-width: 330px;
+            box-shadow: 0 2px 5px 2px #0004;
+        }
+
+        ul {
+            list-style-type: none;
+            counter-reset: section;
+        }
+
+        li::before {
+            counter-increment: section;
+            content: counters(section, ".") " ";
+            font-weight: 500;
+            font-size: 1.17em;
+            color: #aaa;
+        }
+
+        h3 {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<!-- Week 2 -->
+
+<body>
+    <div class="cont">
+        <div id="toc">
+            <h1 style="text-align:center;">Table of Contents</h1>
+            <ul>
+                <li>
+                    <h3>Minutes</h3>
+                </li>
+                <ul>
+                    <li>
+                        <a href="./minutes/001.md">001</a>
+                    </li>
+                </ul>
+                <br />
+                <li>
+                    <h3>Documents</h3>
+                </li>
+                <ul>
+                    <li>
+                        <a href="./docs/001-Use-Cases.md">Use Cases</a>
+                    </li>
+                </ul>
+                <br />
+                <li>
+                    <h3>Presentations</h3>
+                </li>
+                <ul>
+                    <li>
+                        <a href="./context/001.html">Use Cases</a>
+                    </li>
+                </ul>
+                <br />
+            </ul>
+        </div>
+    </div>
+    <script>
+        // window.onload = function () {
+        //     let toc = "";
+        //     let level = 0;
+        //     const contents = document.getElementById( "contents" );
+
+        //     contents.innerHTML.replace(
+        //         /<h([\d])>([^<]+)<\/h([\d])>/gi,
+        //         function ( str, openLevel, titleText, closeLevel ) {
+        //             if ( openLevel != closeLevel ) return str;
+
+        //             if ( openLevel > level )
+        //                 toc += ( new Array( openLevel - level + 1 ) ).join( "<ul>" );
+        //             else if ( openLevel < level )
+        //                 toc += ( new Array( level - openLevel + 1 ) ).join( "</ul><br/>" );
+
+        //             level = parseInt( openLevel );
+        //             let anchor = titleText.replace( / /g, "_" );
+        //             toc += `<li><a href="#${ anchor }">${ titleText }</a></li>`;
+
+        //             return `<h${ openLevel }><a name="${ anchor }">${ titleText }</a></h${ closeLevel }>`;
+        //         }
+        //     );
+
+        //     if ( level ) toc += ( new Array( level + 1 ) ).join( "</ul>" );
+
+        //     contents.remove();
+        //     document.getElementById( "toc" ).innerHTML += toc;
+        // };
+    </script>
+</body>
+
+</html>
