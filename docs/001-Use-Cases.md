@@ -94,7 +94,7 @@ We can employ a suite of sensor in any given factory which can warn maintainer o
 
 ## Specific Advantages
 - Oil Rigs can be converted to fully unmanned stations by automated monitoring and and using transport pipes/ships for support all powered by 5G network. This would Essentially save almost 1000 people per year and increase efficiency beyond human abilities due to realtime analytics data.
-- Similar strategies can be used for Grid monitoring.
+- Similar strategies can be used for Grid monitoring. [Paper](https://www.frontiersin.org/articles/10.3389/frcmn.2021.689590/full). [Arch](https://www.ericsson.com/en/reports-and-papers/industrylab/reports/bringing-5g-to-power)
 
 ## Potential Areas where I have no new ideas
 - Mobile App
