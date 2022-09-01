@@ -1,0 +1,25 @@
+img {
+    object-fit: contain;
+}
+
+li:not(:last-of-type) {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+img[alt="max"] {
+    max-height: 33vh;
+}
+
+ul {
+    font-size: 1.25rem;
+}
+
+.f {
+    display: flex;
+}
+
+.j-ar {
+    justify-content: space-around;
+}

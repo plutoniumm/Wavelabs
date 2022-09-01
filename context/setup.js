@@ -20,6 +20,10 @@ const styles = [
         [ "rel", "stylesheet" ],
         [ "crossorigin", "anonymous" ],
         [ "referrerpolicy", "no-referrer" ]
+    ],
+    [
+        [ "href", "../assets/css/config.css" ],
+        [ "rel", "stylesheet" ]
     ]
 ];
 
