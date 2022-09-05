@@ -1,10 +1,13 @@
-name: reveal2pdf
 on:
   push:
-    branches:
-      - master
-    paths:
-      - 'context/*'
+    branches: [ master ]
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:

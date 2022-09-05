@@ -12,6 +12,14 @@ img[alt="max"] {
     max-height: 33vh;
 }
 
+img[alt="mid"] {
+    max-height: 200px;
+}
+
+.f div {
+    flex: 1;
+}
+
 ul {
     font-size: 1.25rem;
 }
