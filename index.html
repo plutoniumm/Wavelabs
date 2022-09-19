@@ -88,7 +88,11 @@
                 <ul>
                     <li>
                         <a href="./docs/001-Use-Cases.md">Use Cases</a>
+                    </li>
+                    <li>
                         <a href="./docs/002-Generational-Security.md">Privacy & Security</a>
+                    </li>
+                    <li>
                         <a href="./docs/003-Attacks.md">Attacks</a>
                     </li>
                 </ul>
@@ -108,36 +112,6 @@
             </ul>
         </div>
     </div>
-    <script>
-        // window.onload = function () {
-        //     let toc = "";
-        //     let level = 0;
-        //     const contents = document.getElementById( "contents" );
-
-        //     contents.innerHTML.replace(
-        //         /<h([\d])>([^<]+)<\/h([\d])>/gi,
-        //         function ( str, openLevel, titleText, closeLevel ) {
-        //             if ( openLevel != closeLevel ) return str;
-
-        //             if ( openLevel > level )
-        //                 toc += ( new Array( openLevel - level + 1 ) ).join( "<ul>" );
-        //             else if ( openLevel < level )
-        //                 toc += ( new Array( level - openLevel + 1 ) ).join( "</ul><br/>" );
-
-        //             level = parseInt( openLevel );
-        //             let anchor = titleText.replace( / /g, "_" );
-        //             toc += `<li><a href="#${ anchor }">${ titleText }</a></li>`;
-
-        //             return `<h${ openLevel }><a name="${ anchor }">${ titleText }</a></h${ closeLevel }>`;
-        //         }
-        //     );
-
-        //     if ( level ) toc += ( new Array( level + 1 ) ).join( "</ul>" );
-
-        //     contents.remove();
-        //     document.getElementById( "toc" ).innerHTML += toc;
-        // };
-    </script>
 </body>
 
 </html>
