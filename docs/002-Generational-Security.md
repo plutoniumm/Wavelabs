@@ -47,10 +47,6 @@ GTP remains in use even after 3G for availability of fallback to legacy protocol
     In some cases, this defect can be used to downgrade cellular connections to older standards that are less secure. Law enforcement officers and capable hackers can launch surveillance attacks on target devices with the help of professional equipment.
 
 
-# Papers
-1. [5GReasoner: A Property-Directed Security and Privacy Analysis Framework for 5G Cellular Network Protocol](https://s3.documentcloud.org/documents/6544575/5GReasoner.pdf)
-2. [Privacy Attacks to the 4G & 5G Cellular Paging Protocols Using Side Channel Information](https://www.documentcloud.org/documents/5749002-4G-5G-paper-at-NDSS-2019.html)
-
 # Regulation
 ## United Kingdom [NCSC Telecom Security Act] 2022
 - Identifying and assessing the risk to any 'edge' equipment that is directly exposed to potential attackers
@@ -60,3 +56,12 @@ GTP remains in use even after 3G for availability of fallback to legacy protocol
 - Making sure business processes are supporting security (e.g. proper board accountability)
 
 - Auditor to check the above
+
+## EU GDPR
+- All data must be held within state and strict control on what data leaves and enters
+- Pseudo-anonymisation of all telemetry and unencrypted analytics data
+- Right to data erasure and access to all personal data
+
+## Generic/USA (recommended)
+- Full E2EE to safeguard against authoritarian regimes from violating user privacy, and protecting it against unlawful searches and siezures. So if even we cannot see the data, there is no way we can hand it over
+- All user data must be treated with HIPAA standard effectively protecting everything as NPI
