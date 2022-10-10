@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"
+        integrity="sha512-131e3mIrDAyUD075SVzvIjS0g97uDg0+/qAobDHd++h+lgFi4z88DVOpidm06jpb+0PzK4kcm9w79r6EHV0SkA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+        integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+        integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/moon.min.css"
+        integrity="sha512-mzpbI+YpB+bIH9gpH3cBq4u5+YvyAikkgAR4SODr5ZpzBZZtLddurEa5LoJRqRfVc6IUfqj6klr0e9KJjUtKHw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../assets/css/config.css">
+</head>
+
+<!-- Week 2 -->
+
+<body class="reveal">
+    <main class="slides">
+        {{ content }}
+    </main>
+</body>
+
+<script>
+    new Reveal( {
+        plugins: [ RevealMarkdown ],
+        slideNumber: 'c/t',
+        touch: true,
+        has: true,
+        history: true,
+    } ).initialize();
+</script>
+
+</html>
