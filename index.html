@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
-        rel="stylesheet">
 
     <style>
         body {
@@ -22,9 +15,6 @@
             justify-content: center;
             overflow: hidden;
             background: #f5f5f7;
-            font-size: 18px;
-            font-weight: 400;
-            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         }
 
         a,
@@ -67,37 +57,34 @@
 
 <!-- Week 2 -->
 
-<body>
-    <div id="toc">
-        <h1 style="text-align:center;">Table of Contents</h1>
+<div id="toc">
+    <h1 style="text-align:center;">Table of Contents</h1>
+    <h2><a href="https://github.com/plutoniumm/Wavelabs">Wavelabs</a></h2>
+    <ul>
+        <li>
+            <h3>Documents</h3>
+        </li>
+        <ul>
+            {% for doc in site.data.docs %}
+            <li>
+                <a href="./docs/{{ doc.github }}">
+                    {{ doc.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <br />
+        <li>
+            <h3>Presentations</h3>
+        </li>
         <ul>
             <li>
-                <h3>Documents</h3>
+                <a href="./context/001.html">General Use Cases</a>
             </li>
-            <ul>
-                {% for doc in site.data.docs %}
-                <li>
-                    <a href="./docs/{{ doc.github }}">
-                        {{ doc.name }}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-            <br />
             <li>
-                <h3>Presentations</h3>
+                <a href="./context/002.html">Grid-Only Use Cases</a>
             </li>
-            <ul>
-                <li>
-                    <a href="./context/001.html">General Use Cases</a>
-                </li>
-                <li>
-                    <a href="./context/002.html">Grid-Only Use Cases</a>
-                </li>
-            </ul>
-            <br />
         </ul>
-    </div>
-</body>
-
-</html>
+        <br />
+    </ul>
+</div>

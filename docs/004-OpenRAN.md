@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Study of OpenRAN
 
 ## Implimentations to Look at
