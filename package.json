@@ -1,12 +1,7 @@
 {
-  "private": true,
   "scripts": {
     "git": "sh ./scripts/git.sh",
     "dev": "bun ./server.ts"
   },
-  "dependencies": {
-    "@types/node": "^18.7.14",
-    "bun-types": "^0.1.10",
-    "marked": "^4.1.0"
-  }
+  "dependencies": {}
 }

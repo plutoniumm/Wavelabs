@@ -12,37 +12,40 @@ layout: default
 
 ![2G -> 3G](../assets/w3/001.png)
 
-**2G**
--
+### 2G
 Antennas <- RF Cable -> (BaseBandU + RadioU)
 - There are Losses of about 2 dB due to RF cable length
 
-**3G**
--
+### 3G
 (Antennas + RRU) <- Fiber Cable -> BBU
 - RRU has been moved up from base to Antenna
 - RF &rarr; Fiber
 - Fiber now has no losses & is on CPRI Protocol
 
-**vRAN**
--
+### vRAN
 Same as 3G but BBU is COTS Hardware instead of proprietary. BBU is split into CU & DU with introduction of MidHaul.
 
 ![BBU -> CUDU](../assets/w3/004.png)
 
+As per 3GPP the following is the split between DU & CU
 
-**Open RAN**
--
+![CUDU Split](../assets/w3/006.png)
+
+### Open RAN
 Same as vRAN but RF is GPP COTS Hardware instead of proprietary. This also makes the interface between RRU & BBU different as it goes from proprietary CPRI to Open Interface
 
 ![vRAN vs OpenRAN](../assets/w3/002.png)
 
-OPENRAN ADVANTAGES
+**OpenRAN Advantages**
 - RRU can be of multiple types and from multiple vendors
 - BBU can be from an even more different vendor
 
-**CRAN**
--
+**Why OpenRAN?**
+# START
+# WRITING
+# HERE
+
+## CRAN
 CloudRAN. In DRAN (Distributed RAN) all BBU is located on site of tower and needs its own infrastructure everywhere. In case of CRAN, all BBU are taken to a Centralized location where calls & messages will be processed, this central location is called BBU Hotel.
 
 RRU -> Hotel (FrontHaul) is usually Fiber on CPRI for upto 15-20 km. Making a single location for BBU also allows it to be hosted on COTS server and virtualize it on cloud/edge.
@@ -56,7 +59,7 @@ CRAN ADVANTAGES
 
 ![CRAN isometric](../assets/w3/005.png)
 
-5G gNB can be integrated or split into DU & CU parts as shown above
+5G gNB can be integrated or split into DU & CU parts as shown above. The Xn & F1 Interfaces are both open.
 
 ## Sources
 - Parallel Wireless

@@ -12,10 +12,6 @@
         rel="stylesheet">
 
     <style>
-        .markdown-body {
-            all: unset;
-        }
-
         body {
             font-size: 18px;
             font-weight: 400;
@@ -34,5 +30,9 @@
 <body>
     {{ content }}
 </body>
+
+<script>
+    document.querySelector( 'link[rel="stylesheet"][href]' ).remove()
+</script>
 
 </html>
