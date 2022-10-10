@@ -1,4 +1,5 @@
 name: Plutonium Wavelabs
-description: ok
-author: Plutoniumm
 markdown: kramdown
+
+plugins:
+    - jekyll-minifier
