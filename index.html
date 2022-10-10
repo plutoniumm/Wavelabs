@@ -75,15 +75,13 @@
                 <h3>Documents</h3>
             </li>
             <ul>
+                {% for doc in site.data.docs %}
                 <li>
-                    <a href="./docs/001-Use-Cases">General Use Cases</a>
+                    <a href="./docs/{{ doc.github }}">
+                        {{ doc.name }}
+                    </a>
                 </li>
-                <li>
-                    <a href="./docs/002-Generational-Security">Privacy, Security & Regulation</a>
-                </li>
-                <li>
-                    <a href="./docs/003-Attacks">Specific Security Attacks</a>
-                </li>
+                {% endfor %}
             </ul>
             <br />
             <li>
