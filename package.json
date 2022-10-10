@@ -1,7 +1,5 @@
 {
   "scripts": {
-    "git": "sh ./scripts/git.sh",
-    "dev": "bun ./server.ts"
-  },
-  "dependencies": {}
+    "git": "vecon git"
+  }
 }
