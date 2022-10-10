@@ -8,7 +8,7 @@ layout: default
 - CPRI (S) is usually proprietary
 - RRU (H) & BBU (H & S) is proprietary
 
-## Traditional RAN
+## Types/Evolution of RAN
 
 ![2G -> 3G](../assets/w3/001.png)
 
@@ -26,7 +26,10 @@ Antennas <- RF Cable -> (BaseBandU + RadioU)
 
 **vRAN**
 -
-Same as 3G but BBU is COTS Hardware instead of proprietary
+Same as 3G but BBU is COTS Hardware instead of proprietary. BBU is split into CU & DU with introduction of MidHaul.
+
+![BBU -> CUDU](../assets/w3/004.png)
+
 
 **Open RAN**
 -
@@ -49,7 +52,11 @@ CRAN ADVANTAGES
 
 ![CRAN isometric](../assets/w3/003.png)
 
+## 5G RAN
 
+![CRAN isometric](../assets/w3/005.png)
+
+5G gNB can be integrated or split into DU & CU parts as shown above
 
 ## Sources
 - Parallel Wireless
@@ -57,3 +64,4 @@ CRAN ADVANTAGES
 - 5G Mobile Wireless@Youtube
 - - https://youtu.be/yzm0K_PJxBg
 - - https://youtu.be/-fVHO_WCGF8
+- - https://youtu.be/SpWEfQ1PFPA
