@@ -20,7 +20,9 @@ home: true
         a:visited,
         a:hover {
             color: #2af;
-            text-decoration: none;
+            text-decoration: underline;
+            text-decoration-style: dashed;
+            text-decoration-color: #8888;
         }
 
         #toc {
@@ -31,21 +33,13 @@ home: true
 
         ul {
             list-style-type: none;
-            counter-reset: section;
             margin-left: 20px;
             padding-left: 0;
         }
 
         li {
             padding: 2px 0;
-        }
-
-        li::before {
-            counter-increment: section;
-            content: counters(section, ".") " ";
-            font-weight: 500;
-            font-size: 1.17em;
-            color: #aaa;
+            padding-left: 3px;
         }
 
         h3 {
@@ -56,12 +50,10 @@ home: true
         }
     </style>
 
-    <h1 style="text-align:center;">Table of Contents</h1>
-    <h2 style="text-align:center;"><a href="https://github.com/plutoniumm/Wavelabs">Wavelabs</a></h2>
+    <h1 style="text-align:center;"><a href="https://github.com/plutoniumm/Wavelabs" style="color: #000">Wavelabs</a>
+    </h1>
     <ul>
-        <li>
-            <h3>Documents</h3>
-        </li>
+        <li>📑 Documents</li>
         <ul>
             {% for doc in site.data.docs %}
             <li>
@@ -72,16 +64,15 @@ home: true
             {% endfor %}
         </ul>
         <br />
-        <li>
-            <h3>Presentations</h3>
-        </li>
+        <li>🖥️ Presentations</li>
         <ul>
+            {% for doc in site.data.ppt %}
             <li>
-                <a href="./context/001.html">General Use Cases</a>
+                <a href="./context/{{ doc.url }}.html">
+                    {{ doc.name }}
+                </a>
             </li>
-            <li>
-                <a href="./context/002.html">Grid-Only Use Cases</a>
-            </li>
+            {% endfor %}
         </ul>
         <br />
     </ul>
