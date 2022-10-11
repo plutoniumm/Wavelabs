@@ -10,14 +10,14 @@ layout: default
 
 ## Types/Evolution of RAN
 
-![2G -> 3G](../assets/w3/001.png)
+![2G &rarr; 3G](../assets/w3/001.png)
 
 ### 2G
-Antennas <- RF Cable -> (BaseBandU + RadioU)
+Antennas &larr; RF Cable &rarr; (BaseBandU + RadioU)
 - There are Losses of about 2 dB due to RF cable length
 
 ### 3G
-(Antennas + RRU) <- Fiber Cable -> BBU
+(Antennas + RRU) &larr; Fiber Cable &rarr; BBU
 - RRU has been moved up from base to Antenna
 - RF &rarr; Fiber
 - Fiber now has no losses & is on CPRI Protocol
@@ -25,7 +25,7 @@ Antennas <- RF Cable -> (BaseBandU + RadioU)
 ### vRAN
 Same as 3G but BBU is COTS Hardware instead of proprietary. BBU is split into CU & DU with introduction of MidHaul.
 
-![BBU -> CUDU](../assets/w3/004.png)
+![BBU &rarr; CUDU](../assets/w3/004.png)
 
 As per 3GPP the following is the split between DU & CU
 
@@ -41,14 +41,12 @@ Same as vRAN but RF is GPP COTS Hardware instead of proprietary. This also makes
 - BBU can be from an even more different vendor
 
 **Why OpenRAN?**
-# START
-# WRITING
-# HERE
+# &larr;-PENDING-&rarr;
 
 ## CRAN
 CloudRAN. In DRAN (Distributed RAN) all BBU is located on site of tower and needs its own infrastructure everywhere. In case of CRAN, all BBU are taken to a Centralized location where calls & messages will be processed, this central location is called BBU Hotel.
 
-RRU -> Hotel (FrontHaul) is usually Fiber on CPRI for upto 15-20 km. Making a single location for BBU also allows it to be hosted on COTS server and virtualize it on cloud/edge.
+RRU &rarr; Hotel (FrontHaul) is usually Fiber on CPRI for upto 15-20 km. Making a single location for BBU also allows it to be hosted on COTS server and virtualize it on cloud/edge.
 
 CRAN ADVANTAGES
 - Reduces Cost of Space, Heating/Cooling, Power, Test Access

@@ -2,6 +2,8 @@ img {
   transition: all 0.1s ease;
   max-width: 90%;
   max-height: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 img:hover {
@@ -48,7 +50,7 @@ body {
 h1 {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 52px;
+  font-size: 46px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
@@ -58,7 +60,7 @@ h1 {
 h2 {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 27px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
@@ -68,7 +70,7 @@ h2 {
 h3 {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
@@ -78,16 +80,6 @@ h3 {
 h4 {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-h5 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -95,19 +87,8 @@ h5 {
   line-height: 1.1;
 }
 
-h6 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 1;
-}
-
 p {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 20px;
   line-height: 150%;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
@@ -125,7 +106,6 @@ button {
   align-items: center;
   height: fit-content;
   min-width: 180px;
-  font-size: large;
   font-weight: 500;
   padding: 12px;
 }
@@ -143,7 +123,6 @@ button.primary {
   align-items: center;
   height: fit-content;
   min-width: 180px;
-  font-size: large;
   font-weight: 500;
   padding: 12px;
 }
@@ -153,13 +132,9 @@ button.primary:hover {
   color: #fff;
 }
 
-form {
-  font-size: 20px;
-}
-
 input,
 textarea {
-  font-size: 18px;
+  font-size: 1rem;
   padding: 8px;
   margin: 10px auto;
 }
@@ -183,7 +158,6 @@ input[type="radio"] {
   margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 17px;
   font-family: monospace;
   border-radius: 3px;
   line-height: 1.25;
@@ -199,7 +173,7 @@ blockquote {
   margin: 1.5em 10px;
   padding: 40px 20px;
   quotes: "\201C" "\201D" "\2018" "\2019";
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 150%;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
@@ -209,7 +183,7 @@ blockquote {
 blockquote:before {
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 4rem;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
@@ -239,7 +213,7 @@ blockquote p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 550;
 }
 
@@ -264,7 +238,6 @@ ul {
 li {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
   line-height: 1.5;
 }
 

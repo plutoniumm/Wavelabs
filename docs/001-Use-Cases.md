@@ -42,13 +42,13 @@ Data Rate: 4G will range from 20 to 100 Mbps.
 ![Connection Sturcture](../assets/w1/001.png)
 
 ### Process
-> Connection: Arrows i.e ->, <-, <->||=.. Bolded are User Plane, rest are control plane/both
--  **UE -> eNB** • eNB Provides Radio Interface to UE
-- eNB -> MME • MME Does Auth & Tracks Location
-- - MME -> HSS • HSS Gives Sub info of /allUsers
-- - **MME -> SGW** • SGW is instructed to form Tunnel w/ User
+> Connection: Arrows i.e &rarr;, &larr;, <&rarr;||=.. Bolded are User Plane, rest are control plane/both
+-  **UE &rarr; eNB** • eNB Provides Radio Interface to UE
+- eNB &rarr; MME • MME Does Auth & Tracks Location
+- - MME &rarr; HSS • HSS Gives Sub info of /allUsers
+- - **MME &rarr; SGW** • SGW is instructed to form Tunnel w/ User
 - SGW = UE • SGW facilitates data transfer and eNB transfer
-- **SGW -> PGW = PDN** • PDN is external network
+- **SGW &rarr; PGW = PDN** • PDN is external network
 
 ## Built On/Supports
 - IPv6
