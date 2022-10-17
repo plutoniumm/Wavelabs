@@ -9,3 +9,9 @@
 
 - name: 📡 RAN & OpenRAN Study
   url: 004-OpenRAN
+
+- name: 🔐 5G Security Architecture
+  url: 005-General-Sec
+
+- name: 🏎 ORAN MERN Improvements
+  url: 006-ORAN-MERN
