@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "git": "vecon git"
+    "git": "vecon git",
+    "dev": "bun ./server.js"
   }
 }
