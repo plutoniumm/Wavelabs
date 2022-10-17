@@ -12,8 +12,16 @@ img[alt="max"] {
     max-height: 33vh;
 }
 
-img[alt="mid"] {
-    max-height: 200px;
+img[alt="lg"] {
+    max-height: 300px;
+}
+
+img[alt="md"] {
+    max-height: 175px;
+}
+
+img[alt="sm"] {
+    max-height: 75px;
 }
 
 .f div {

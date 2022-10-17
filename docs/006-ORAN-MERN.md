@@ -9,7 +9,6 @@ We will set 3 core premises of decision making
 ## Requirements
 - Backend
 - Frontend
-- Interface
 - Database
 - Runtime
 
