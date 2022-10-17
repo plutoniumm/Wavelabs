@@ -28,6 +28,11 @@ ul {
     display: flex;
 }
 
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .j-ar {
     justify-content: space-around;
 }
