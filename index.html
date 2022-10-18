@@ -46,11 +46,18 @@ home: true
     <ul>
         <li>📑 Documents</li>
         <ul>
-            {% for doc in site.data.docs %}
+            {% for track in site.data.docs %}
             <li>
-                <a href="./docs/{{ doc.url }}">
-                    {{ doc.name }}
-                </a>
+                <div>{track.title}</div>
+                <ul>
+                    {% for doc in track.data %}
+                    <li>
+                        <a href="./docs/{{ doc.url }}">
+                            {{ doc.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </li>
             {% endfor %}
         </ul>

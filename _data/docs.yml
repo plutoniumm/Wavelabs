@@ -1,17 +1,29 @@
-- name: 📚 General Use Cases
-  url: 001-Use-Cases
+-
+  title: "Track 1: Security"
+  data:
+    - name: 🔑 Privacy, Security & Regulation
+      url: 002-Generational-Security
 
-- name: 🔑 Privacy, Security & Regulation
-  url: 002-Generational-Security
+    - name: 🥷 Specific Security Attacks
+      url: 003-Attacks
 
-- name: 🥷 Specific Security Attacks
-  url: 003-Attacks
+    - name: 🔐 5G Security Architecture
+      url: 005-General-Sec
 
-- name: 📡 RAN & OpenRAN Study
-  url: 004-OpenRAN
+-
+  title: "Track 2: Use Cases"
+  data:
+    - name: 📚 General Use Cases
+      url: 001-Use-Cases
 
-- name: 🔐 5G Security Architecture
-  url: 005-General-Sec
+    - name: 🛩 Private 5G & SMEs
+      url: 007-Private-SME
 
-- name: 🏎 ORAN MERN Improvements
-  url: 006-ORAN-MERN
+-
+  title: "Track 3: Independent"
+  data:
+    - name: 📡 RAN & OpenRAN Study
+      url: 004-OpenRAN
+
+    - name: 🏎 ORAN MERN Improvements
+      url: 006-ORAN-MERN
