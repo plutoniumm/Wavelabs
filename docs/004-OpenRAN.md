@@ -47,7 +47,9 @@ Same as vRAN but RF is GPP COTS Hardware instead of proprietary. This also makes
 
 ![Migration](../assets/w4/100.png)
 
-Our objective is to Make sure `Y < X + (MovingCost/Life)`
+Our objective is to Make sure `Y < X + (MovingCost/Life)`. This is done by out-sourcing to operator which takes advantage of specialization
+
+![Migration](../assets/w4/101.png)
 
 ## CRAN
 CloudRAN. In DRAN (Distributed RAN) all BBU is located on site of tower and needs its own infrastructure everywhere. In case of CRAN, all BBU are taken to a Centralized location where calls & messages will be processed, this central location is called BBU Hotel.
@@ -69,6 +71,7 @@ CRAN ADVANTAGES
 - Parallel Wireless
 - - https://youtu.be/b8UiIdwTCYI
 - - https://youtu.be/rAOqukx2psw
+- - https://youtu.be/Qehg8pzmdAE
 - 5G Mobile Wireless@Youtube
 - - https://youtu.be/yzm0K_PJxBg
 - - https://youtu.be/-fVHO_WCGF8

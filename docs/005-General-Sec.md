@@ -2,6 +2,8 @@
 layout: default
 ---
 
+Ref: https://www.gsma.com/security/securing-the-5g-era/
+
 ## Auth Methods
 - **4G**: EPS-AKA
 - **5G**: 5G-AKA, EAP-AKA’, and EAP-TLS
