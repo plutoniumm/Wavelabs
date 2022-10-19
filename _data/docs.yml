@@ -15,7 +15,15 @@
       url: 001-Use-Cases
 
     - name: 🛩 Private 5G & SMEs
+      url: 008-SME-Edu
+      tag: In Progress
+
+    - name: 👨🏻‍🏫 Education & Research
       url: 007-Private-SME
+      tag: In Progress
+
+    - name: 🌾 Agriculture Sector
+      url: 009-SME-Agri
       tag: In Progress
 
 - title: "Track 3: Independent"

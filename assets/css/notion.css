@@ -17,9 +17,15 @@ a,
 a:hover,
 a:visited {
   padding: 3px;
+  color: #08e;
   text-decoration: underline;
   text-decoration-style: dashed;
   text-decoration-color: #8888;
+  transition: text-decoration-color 0.1s ease;
+}
+
+a:hover {
+  text-decoration-color: #444;
 }
 
 body {
@@ -269,6 +275,15 @@ th {
   border: 1px solid #333;
   text-align: left;
   padding: 20px;
+}
+
+.chip {
+  display: inline;
+  background: var(--bg);
+  color: var(--col);
+  border-radius: 5px;
+  font-size: 0.75em;
+  padding: 3px 10px;
 }
 
 .chip[tag="Danger"] {
