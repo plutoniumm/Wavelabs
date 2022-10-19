@@ -55,6 +55,9 @@ home: true
                         <a href="./docs/{{ doc.url }}">
                             {{ doc.name }}
                         </a>
+                        {% if doc.tag %}
+                        {% include chip.html tag=doc.tag %}
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>

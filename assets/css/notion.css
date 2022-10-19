@@ -270,3 +270,28 @@ th {
   text-align: left;
   padding: 20px;
 }
+
+.chip[tag="Danger"] {
+  --bg: #ffcdd2;
+  --col: #f44336;
+}
+
+.chip[tag="In Progress"] {
+  --bg: #e1bee7;
+  --col: #9c27b0;
+}
+
+.chip[tag="Tentative"] {
+  --bg: #ffe0b2;
+  --col: #ff9800;
+}
+
+.chip[tag="Complete"] {
+  --bg: #c8e6c9;
+  --col: #4caf50;
+}
+
+.chip[tag="More"] {
+  --bg: #bbdefb;
+  --col: #2196f3;
+}

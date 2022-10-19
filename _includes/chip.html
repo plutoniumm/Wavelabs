@@ -1,0 +1,18 @@
+<div class="chip rx10 m5 fw5" tag="{{include.tag}}">
+    {% if include.text %}
+    {{include.text}}
+    {% else %}
+    {{include.tag}}
+    {% endif %}
+</div>
+
+<style>
+    .chip {
+        display: inline;
+        background: var(--bg);
+        color: var(--col);
+
+        font-size: 0.75em;
+        padding: 3px 10px;
+    }
+</style>

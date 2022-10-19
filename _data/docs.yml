@@ -16,11 +16,13 @@
 
     - name: 🛩 Private 5G & SMEs
       url: 007-Private-SME
+      tag: In Progress
 
 - title: "Track 3: Independent"
   data:
     - name: 📡 RAN & OpenRAN Study
       url: 004-OpenRAN
+      tag: Tentative
 
     - name: 🏎 ORAN MERN Improvements
       url: 006-ORAN-MERN
