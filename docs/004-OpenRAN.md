@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # Study of OpenRAN
 
 ## Implimentations to Look at
@@ -41,7 +42,12 @@ Same as vRAN but RF is GPP COTS Hardware instead of proprietary. This also makes
 - BBU can be from an even more different vendor
 
 **Why OpenRAN?**
-# &larr;-PENDING-&rarr;
+- Fronthaul can be made Open in eCPRI and is currently proprietary
+- Most 5G today is deployed in ENDC mode alongside 4G. This implies that the X2 interface (b/w two nodes i.e eNB & gNB) is proprietary. This forces them to use the same solution as 4G and use extra spectrum which may not always be available
+
+![Migration](../assets/w4/100.png)
+
+Our objective is to Make sure `Y < X + (MovingCost/Life)`
 
 ## CRAN
 CloudRAN. In DRAN (Distributed RAN) all BBU is located on site of tower and needs its own infrastructure everywhere. In case of CRAN, all BBU are taken to a Centralized location where calls & messages will be processed, this central location is called BBU Hotel.
@@ -62,6 +68,7 @@ CRAN ADVANTAGES
 ## Sources
 - Parallel Wireless
 - - https://youtu.be/b8UiIdwTCYI
+- - https://youtu.be/rAOqukx2psw
 - 5G Mobile Wireless@Youtube
 - - https://youtu.be/yzm0K_PJxBg
 - - https://youtu.be/-fVHO_WCGF8

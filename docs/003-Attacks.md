@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Stage Based Attacks
 - **Registration Procedude**
     - <cite>Ioif Androulidakis. 2011. Intercepting Mobile Phone Calls and Short Messages Using a GSM Tester. In 18th Conference on Computer Networks, Ustron, Poland, Andrzej Kwiecień, Piotr Gaj, and Piotr Stera (Eds.). 281–288.</cite>

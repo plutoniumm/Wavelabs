@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <style>
     img{
         max-height: 300px;

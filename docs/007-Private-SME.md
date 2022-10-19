@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Private 5G
 
 For years, if an organization wanted to deploy a private wireless network at a factory, office building, transit hub, other facility, or over a utility service or other geographic area, its options were limited to Wi-Fi or proprietary network technologies like LoRa or Sigfox.
