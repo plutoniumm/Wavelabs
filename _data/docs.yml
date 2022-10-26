@@ -15,11 +15,10 @@
       url: 001-Use-Cases
 
     - name: 🛩 Private 5G & SMEs
-      url: 008-SME-Edu
+      url: 007-Private-SME
 
     - name: 👨🏻‍🏫 Education & Research
-      url: 007-Private-SME
-      tag: In Progress
+      url: 008-SME-Edu
 
     - name: 🌾 Agriculture Sector
       url: 009-SME-Agri
@@ -32,3 +31,6 @@
 
     - name: 🏎 ORAN MERN Improvements
       url: 006-ORAN-MERN
+
+    - name: 🎮 BioReactor Game Engines DigiClone
+      url: 010-BioReactorSim
