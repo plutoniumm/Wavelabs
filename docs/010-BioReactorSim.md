@@ -13,7 +13,7 @@ choices:
     img{
         --sz: 64px;
         height: var(--sz);
-        width: var(--sz);
+        width: var(--sz);  
         object-fit: contain;
     }
     th{
@@ -21,9 +21,6 @@ choices:
         width: 33.33%;
     }
 </style>
-
-> System(s): \
-> Macbook Air M2 arm x64
 
 ## Engine Choice
 
@@ -62,6 +59,7 @@ choices:
   <tr>
     <td>
     <!-- Unity -->
+    -
     </td>
     <td>
     <!-- Blender -->
@@ -70,14 +68,25 @@ choices:
     </td>
     <td>
     <!-- Omni -->
+    -
     </td>
   </tr>
   <tr><th></th><th></th><th></th></tr>
+  <tr>
+    <td>
+    <!-- Unity -->
+    Community Support and feature library for Unity is much larger
+    </td>
+    <td>
+    <!-- Blender -->
+    -
+    </td>
+    <td>
+    <!-- Omni -->
+    Backend support and modularity of Omniverse is higher
+    </td>
+  </tr>
 </table>
 
-
-
-Unity 3D vs Blender feature diff
-Bioreactor digital twins (few companies)
-
-Unity: Possible in unity but not meant for that - has better physics engine has more game oriented and simulation oriented logic. Is in C#
+## BioReactor Digital Twins
+(few companies)
