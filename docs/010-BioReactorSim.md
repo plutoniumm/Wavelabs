@@ -23,11 +23,9 @@ choices:
 
 ## Engine Choice
 
-> EXPT
-
 <table>
   <tr>
-    {% for choice in choices %}
+    {% for choice in page.choices %}
     <th>
         <img src="{{choice.src}}"/> <br/>
         {{choice.engine}}
@@ -35,8 +33,6 @@ choices:
     {% endfor %}
   </tr>
 </table>
-
-> //EXPT
 
 <table>
   <tr>

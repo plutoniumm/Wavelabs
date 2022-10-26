@@ -3,3 +3,7 @@ markdown: kramdown
 
 plugins:
     - jekyll-minifier
+    - jekyll-last-modified-at
+
+last-modified-at:
+    date-format: '%d-%b-%y'
