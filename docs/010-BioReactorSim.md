@@ -5,6 +5,8 @@ choices:
       icon: https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/unity-512.png
     - engine: Blender
       icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/293px-Blender_logo_no_text.svg.png
+    - engine: Omniverse
+      icon: https://docs.omniverse.nvidia.com/con_connect/_images/renderer.png
 ---
 
 <style>
@@ -16,7 +18,7 @@ choices:
     }
     th{
         text-align: center;
-        min-width: 100px;
+        width: 33.33%;
     }
 </style>
 
@@ -29,27 +31,10 @@ choices:
   <tr>
     {% for choice in page.choices %}
     <th>
-        <img src="{{choice.src}}"/> <br/>
+        <img src="{{choice.icon}}"/> <br/>
         {{choice.engine}}
     </th>
     {% endfor %}
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>
-    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/unity-512.png"/> <br/>
-    Unity 3D
-    </th>
-    <th>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/293px-Blender_logo_no_text.svg.png"/> <br/>
-    Blender
-    </th>
-    <th>
-    <img src="https://docs.omniverse.nvidia.com/con_connect/_images/renderer.png"/> <br/>
-    Omniverse
-    </th>
   </tr>
   <tr>
   <th></th>

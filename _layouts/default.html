@@ -15,6 +15,13 @@
 </head>
 
 <body>
+    {% for track in site.data.docs %}
+    {% for doc in track.data %}
+    {% if page.url contains doc.url %}
+    <h1>{{doc.name}}</h1>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
     {{ content }}
 </body>
 
