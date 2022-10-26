@@ -51,9 +51,6 @@ and RRC layer control-plane-protocols.
     - TMSI & Paging Occation Exposure (also possible via ToRPEDO)
     - Inactive-RNTI (Radio Network Temporary Identifier) Leak
 
-## Details
-[5GReasoner: A Property-Directed Security and Privacy Analysis Framework for 5G Cellular Network Protocol](https://s3.documentcloud.org/documents/6544575/5GReasoner.pdf)
-
-# Full 5G Security Summary
-(In C-I-A Format)
-[Overview of 5G Security and Vulnerabilities](https://cyberdefensereview.army.mil/Portals/6/CDR%20V5N1%20-%2008_%20Fonyi_WEB.pdf)
+## References
+- [5GReasoner: A Property-Directed Security and Privacy Analysis Framework for 5G Cellular Network Protocol](https://s3.documentcloud.org/documents/6544575/5GReasoner.pdf)
+- [Overview of 5G Security and Vulnerabilities](https://cyberdefensereview.army.mil/Portals/6/CDR%20V5N1%20-%2008_%20Fonyi_WEB.pdf) (In C-I-A Format)

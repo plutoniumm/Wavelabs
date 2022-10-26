@@ -42,6 +42,7 @@ choices:
   <th></th>
   </tr>
   <tr>
+  <!-- PHY ENGINES -->
     <td>
     <!-- Unity -->
     <b>NVIDIA PhysX</b> <br/>
@@ -61,19 +62,17 @@ choices:
   <tr>
     <td>
     <!-- Unity -->
-    Physics Engine more game and simulation oriented in logic
     </td>
     <td>
     <!-- Blender -->
-    Blender is most suitable for 3D modelling, compositing and VFX. It is more versatile but is NOT suitable for Realtime rendering i.e any form of simulation
-    <br/>
-    It has a working Physics Engine but is not recommended for physics based tasks. Is great for making movies
+    <b>ELIMINATION</b> <br/>
+    Blender is suitable for 3D modelling/compositing & VFX. Its versatile but NOT suitable for Realtime rendering/simulations
     </td>
     <td>
     <!-- Omni -->
-    Is direct Competitor to Unreal engine. NEEDS NVIDIA graphic card to run
     </td>
   </tr>
+  <tr><th></th><th></th><th></th></tr>
 </table>
 
 

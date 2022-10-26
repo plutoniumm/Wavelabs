@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<cite>No citation necessary</cite>
+
 # Optimum Selection of Tech Stack and Improving Performance
 
 We will set 3 core premises of decision making

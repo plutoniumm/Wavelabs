@@ -80,9 +80,9 @@ The Indian & American Govt (NASA) provides extremely frequent full planet views 
 If a small section of land is infected by pests he can also have a drone automatically carry Pesticide and spray it over the required area as seen by the Seed Dispenser from former NASA Engg Mark Rober's Team Trees tree planting project. He uses drones to automatically plant trees and a few other supplements with them
 
 
-## Sources
-- https://www.telit.com/blog/5g-smart-farming-agriculture-use-cases/
-- https://tractorguru.in/blog/smart-emerging-technologies-in-farming-in-india-with-impact/
-- https://www.smsfoundation.org/role-of-modern-technology-in-agriculture/
-- https://www.cropin.com/blogs/the-future-of-agriculture
-- https://www.verizon.com/about/news/5g-in-agriculture-smart-farming-transforming-industry
+## References
+- **Telit** - https://www.telit.com/blog/5g-smart-farming-agriculture-use-cases/
+- **Tractorguru** - https://tractorguru.in/blog/smart-emerging-technologies-in-farming-in-india-with-impact/
+- **SMSFoundation** - https://www.smsfoundation.org/role-of-modern-technology-in-agriculture/
+- **Cropin** - https://www.cropin.com/blogs/the-future-of-agriculture
+- **Verizon** - https://www.verizon.com/about/news/5g-in-agriculture-smart-farming-transforming-industry

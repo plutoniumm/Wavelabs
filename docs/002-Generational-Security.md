@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<cite>All citations are inline</cite>
+
 # Security
 
 > Continued reliance on GPRS (*General Packet Radio Service*) Tunneling Protocol (GTP), which is designed to allow data packets to move between different operators’ wireless networks, ex. when user is roaming. Telecom security company Positive Technologies said in a recent report that as long as GTP is in use, 5G will inherit all it's flaws

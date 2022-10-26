@@ -9,6 +9,8 @@ layout: default
     }
 </style>
 
+<cite>All citations are inline</cite>
+
 # Intro
 Last Updated 16:15, 27-05-2022 \
 The Following is My notes on 4G & 5G Networks based on [This Discussion](../minutes/001.md). The notes are a bit chaotic right now due to raw dumping of information and will get sorted out within a day or two.

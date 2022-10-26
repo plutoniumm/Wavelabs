@@ -70,3 +70,9 @@ Private 5G networks can revolutionize processes within industries such as manufa
 The Following 2 documents discuss specific SMEs
 - [👨🏻‍🏫 Education & Research](./008-SME-Edu.md)
 - [🌾 Agriculture](./009-SME-Agri.md)
+
+## References
+- **Cisco**: https://www.cisco.com/c/en/us/solutions/private-5g-networks.html
+- **Business Standard**: https://www.business-standard.com/article/technology/what-is-private-5g-network-and-its-application-in-india-122041300237_1.html
+- **RedHat**: https://www.redhat.com/en/topics/5g-networks/what-is-private-5g
+- **Sierra Wireless**: https://www.sierrawireless.com/iot-blog/what-are-private-lte-networks/

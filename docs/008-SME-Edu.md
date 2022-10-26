@@ -38,5 +38,9 @@ Students can not only see remote locations such as labs and locations but also s
 - Improved HVAC efficiency through environmental sensors and automation
 - Improved efficiency of maintenance staff with advanced remote troubleshooting
 
-### Why
-- https://www.ericsson.com/en/about-us/new-world-of-possibilities/imagine-possible-india/using-5g-to-bring-digital-access-to-students-in-india
+### References
+- **Ericsson**: https://www.ericsson.com/en/about-us/new-world-of-possibilities/imagine-possible-india/using-5g-to-bring-digital-access-to-students-in-india
+- **World Bank**: https://blogs.worldbank.org/digital-development/how-can-5g-make-difference-education
+- **T-Mobile** - https://www.t-mobile.com/business/resources/articles/5-ways-to-use-5g-technology-in-education
+- **Deloitte** - https://www2.deloitte.com/content/dam/Deloitte/pt/Documents/technology/5G-The-future-of-education.pdf
+- **Celona** - https://www.celona.io/5g-lan/smart-campus

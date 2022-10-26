@@ -67,7 +67,7 @@ CRAN ADVANTAGES
 
 5G gNB can be integrated or split into DU & CU parts as shown above. The Xn & F1 Interfaces are both open.
 
-## Sources
+## References
 - Parallel Wireless
 - - https://youtu.be/b8UiIdwTCYI
 - - https://youtu.be/rAOqukx2psw
