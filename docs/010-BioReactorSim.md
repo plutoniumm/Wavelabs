@@ -20,8 +20,11 @@ choices:
 
 > System(s): \
 > Macbook Air M2 arm x64
+
 ## Engine Choice
+
 > EXPT
+
 <table>
   <tr>
     {% for choice in choices %}
@@ -34,6 +37,7 @@ choices:
 </table>
 
 > //EXPT
+
 <table>
   <tr>
     <th>

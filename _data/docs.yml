@@ -27,10 +27,10 @@
   data:
     - name: 📡 RAN & OpenRAN Study
       url: 004-OpenRAN
-      tag: Tentative
 
     - name: 🏎 ORAN MERN Improvements
       url: 006-ORAN-MERN
 
     - name: 🎮 BioReactor Game Engines DigiClone
       url: 010-BioReactorSim
+      tag: In Progress
