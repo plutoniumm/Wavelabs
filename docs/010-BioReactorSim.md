@@ -42,12 +42,37 @@ choices:
   <th></th>
   </tr>
   <tr>
-    <td>January</td>
     <td>
-    <!-- Unity: -->
-    Unity was built with mobile apps in mind, so development for these devices is very streamlined, both for 2D and 3D titles. Most of the optimizations are meant for small and indie games with limited processing requirements.
+    <!-- Unity -->
+    <b>NVIDIA PhysX</b> <br/>
+    Physics Engine more game and simulation oriented in logic
     </td>
-    <td>$100</td>
+    <td>
+    <!-- Blender -->
+    <b>Bullet Physics</b> <br/>
+    Is working Engine but not recommended for physics based tasks. Is great for making movies
+    </td>
+    <td>
+    <!-- Omni -->
+    <b>NVIDIA PhysX</b> <br/>
+    Physics Engine more game and simulation oriented in logic
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <!-- Unity -->
+    Physics Engine more game and simulation oriented in logic
+    </td>
+    <td>
+    <!-- Blender -->
+    Blender is most suitable for 3D modelling, compositing and VFX. It is more versatile but is NOT suitable for Realtime rendering i.e any form of simulation
+    <br/>
+    It has a working Physics Engine but is not recommended for physics based tasks. Is great for making movies
+    </td>
+    <td>
+    <!-- Omni -->
+    Is direct Competitor to Unreal engine. NEEDS NVIDIA graphic card to run
+    </td>
   </tr>
 </table>
 
@@ -55,14 +80,5 @@ choices:
 
 Unity 3D vs Blender feature diff
 Bioreactor digital twins (few companies)
-NVIdid Omniverse - MORE
-	else
-
-Blender 3D modelling - compositing - VFX - more versatile (MORE FOR SILICON) - not for realtime
-Has decent pghyics but
 
 Unity: Possible in unity but not meant for that - has better physics engine has more game oriented and simulation oriented logic. Is in C#
-
-Unreal engine slightly better community + resources >> unity
-
-Omnivores competition to Unreal - is new
