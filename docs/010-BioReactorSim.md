@@ -13,7 +13,7 @@ choices:
     img{
         --sz: 64px;
         height: var(--sz);
-        width: var(--sz);  
+        width: var(--sz);
         object-fit: contain;
     }
     th{
@@ -87,6 +87,18 @@ choices:
     </td>
   </tr>
 </table>
+
+For our case *NVIDIA Omniverse* will be better suited since
+- Has realtime remote connect and collaborate
+- Has enterprise server backend
+- Supports USD and is interoperable with many DCCs
+- Extremely modular & can be taylored to exact use case
+
+For our case *Unity 3D* will be better suited since
+- Has MASSIVE community
+- Has readymade prepackaged tools beforehand
+- 
+
 
 ## BioReactor Digital Twins
 (few companies)
